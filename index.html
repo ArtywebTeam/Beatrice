@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beatrice Hair Salon — L'eccellenza nei tuoi capelli</title>
+  <meta name="description" content="Colore, luce e movimento creati su misura. Un salone a Gardone Val Trompia dove tecnica, ascolto e creatività trasformano il tuo stile con eleganza." />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#home" class="brand-link">
+        <img src="assets/images/logo.jpeg" alt="Logo Beatrice Hair Salon" class="brand-logo" />
+        <span class="brand-title">Beatrice <span class="text-gold">Hair Salon</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#risultati" class="nav-link" data-nav="results">Risultati</a>
+        <a href="#servizi" class="nav-link" data-nav="services">Servizi</a>
+        <a href="#salone" class="nav-link" data-nav="salon">Il salone</a>
+        <a href="#contatti" class="nav-link" data-nav="contact">Contatti</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="lang-toggle" class="hit lang-btn" aria-label="Change language">IT / EN</button>
+        <button id="theme-toggle" class="hit theme-toggle-btn" aria-label="Dark mode">
+          <!-- Moon Icon Default -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+        <button id="mobile-menu-btn" class="hit mobile-menu-btn" aria-label="Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Mobile Navigation">
+      <a href="#risultati" class="mobile-nav-link" data-nav="results">Risultati</a>
+      <a href="#servizi" class="mobile-nav-link" data-nav="services">Servizi</a>
+      <a href="#salone" class="mobile-nav-link" data-nav="salon">Il salone</a>
+      <a href="#contatti" class="mobile-nav-link" data-nav="contact">Contatti</a>
+    </nav>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main>
+
+    <!-- ===== SECTION 00: HERO ===== -->
+    <section id="home">
+      <video id="hero-video" class="hero-video-bg" autoplay muted loop playsinline aria-hidden="true">
+        <source src="assets/videos/hero.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span id="hero-line1">L'eccellenza</span><br />
+          <em id="hero-line2">nei tuoi capelli</em>
+        </h1>
+
+        <ul id="hero-tags-list" class="hero-tags">
+          <li><span aria-hidden="true">💕</span> L'amore nel curare e trattare il tuo capello</li>
+          <li><span aria-hidden="true">🎨</span> Specializzati nella colorazione</li>
+          <li><span aria-hidden="true">💇🏼‍♀️</span> Donna</li>
+          <li><span aria-hidden="true">💇🏻‍♂️</span> Uomo</li>
+        </ul>
+
+        <p id="hero-copy" class="hero-copy">
+          Colore, luce e movimento creati su misura. Un salone dove tecnica, ascolto e creatività trasformano il tuo stile con eleganza.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#contatti" id="hero-book-btn" class="gold-button">Prenota ora</a>
+          <a href="#risultati" id="hero-discover-btn" class="outline-button hero-outline-btn">Scopri i risultati</a>
+        </div>
+      </div>
+
+      <a href="#risultati" class="hero-scroll-indicator">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
+        <span id="hero-scroll-text">Esplora</span>
+      </a>
+    </section>
+
+    <!-- ===== SECTION 01: RISULTATI (GALLERY) ===== -->
+    <section id="risultati" class="section-shell">
+      <div class="gallery-header">
+        <div>
+          <p id="gallery-kicker" class="eyebrow">01 — Il nostro lavoro</p>
+          <h2 id="gallery-title" class="section-title">Risultati che parlano</h2>
+        </div>
+        <p id="gallery-copy" class="gallery-copy">
+          Ogni nuance nasce dall'ascolto, dalla tecnica e da una visione precisa: valorizzare la tua bellezza, senza compromessi.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- 14 Gallery Items -->
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_01.jpg" alt="Balayage Blonde — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">01 · Balayage Blonde</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_02.jpg" alt="Biondo Luminoso — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">02 · Biondo Luminoso</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_03.jpg" alt="Copper Glow — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">03 · Copper Glow</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_04.jpg" alt="Berry Color — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">04 · Berry Color</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_05.jpg" alt="Glossy Brunette — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">05 · Glossy Brunette</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_06.jpg" alt="Soft Highlights — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">06 · Soft Highlights</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_07.jpg" alt="Golden Waves — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">07 · Golden Waves</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_08.jpg" alt="Modern Fade — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">08 · Modern Fade</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_09.jpg" alt="Insight Ritual — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">09 · Insight Ritual</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_10.jpg" alt="Anti-Frizz Care — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">10 · Anti-Frizz Care</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_11.jpg" alt="Riflessi Biondi — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">11 · Riflessi Biondi</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_12.jpg" alt="Il Salone — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">12 · Il Salone</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_13.jpg" alt="Borgundy profondo — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">13 · Borgundy profondo</figcaption>
+        </figure>
+
+        <figure class="gallery-card">
+          <img src="assets/images/gallery_14.jpg" alt="Biondo Cool — risultato Beatrice Hair Salon" class="gallery-img" loading="lazy" />
+          <figcaption class="gallery-caption">14 · Biondo Cool</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 02: SERVIZI (SERVICES) ===== -->
+    <section id="servizi" class="section-shell">
+      <div class="services-grid">
+        <div class="services-left">
+          <p id="services-kicker" class="eyebrow">02 — Servizi</p>
+          <h2 id="services-title" class="section-title">Il menu atelier</h2>
+          <p id="services-copy" class="services-copy">
+            Percorsi personalizzati per il colore, la forma e la salute dei tuoi capelli.
+          </p>
+        </div>
+
+        <div class="services-right">
+          <!-- Service Item 01 -->
+          <div class="service-item">
+            <div class="service-inner">
+              <span class="service-num">01</span>
+              <div class="service-content">
+                <h3 id="service-title-0" class="service-title">Colore & Schiariture</h3>
+                <p id="service-copy-0" class="service-desc">
+                  Balayage, biondi luminosi, riflessi e colori creativi costruiti sulla tua carnagione e personalità.
+                </p>
+              </div>
+              <a href="https://wa.me/390308913249?text=Buongiorno%2C%20vorrei%20prenotare%20un%20appuntamento." target="_blank" rel="noreferrer" id="service-link-0" aria-label="Prenota Colore & Schiariture" class="hit service-cta-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service Item 02 -->
+          <div class="service-item">
+            <div class="service-inner">
+              <span class="service-num">02</span>
+              <div class="service-content">
+                <h3 id="service-title-1" class="service-title">Taglio & Styling</h3>
+                <p id="service-copy-1" class="service-desc">
+                  Tagli donna e uomo, pieghe e styling capaci di esprimere chi sei e restare belli ogni giorno.
+                </p>
+              </div>
+              <a href="https://wa.me/390308913249?text=Buongiorno%2C%20vorrei%20prenotare%20un%20appuntamento." target="_blank" rel="noreferrer" id="service-link-1" aria-label="Prenota Taglio & Styling" class="hit service-cta-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service Item 03 -->
+          <div class="service-item">
+            <div class="service-inner">
+              <span class="service-num">03</span>
+              <div class="service-content">
+                <h3 id="service-title-2" class="service-title">Trattamenti</h3>
+                <p id="service-copy-2" class="service-desc">
+                  Rituali liscianti, disciplinanti e ricostruttivi per capelli lucidi, morbidi e visibilmente sani.
+                </p>
+              </div>
+              <a href="https://wa.me/390308913249?text=Buongiorno%2C%20vorrei%20prenotare%20un%20appuntamento." target="_blank" rel="noreferrer" id="service-link-2" aria-label="Prenota Trattamenti" class="hit service-cta-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Service Item 04 -->
+          <div class="service-item">
+            <div class="service-inner">
+              <span class="service-num">04</span>
+              <div class="service-content">
+                <h3 id="service-title-3" class="service-title">Sposa & Occasioni</h3>
+                <p id="service-copy-3" class="service-desc">
+                  Acconciature eleganti e personalizzate per accompagnarti nei momenti che contano.
+                </p>
+              </div>
+              <a href="https://wa.me/390308913249?text=Buongiorno%2C%20vorrei%20prenotare%20un%20appuntamento." target="_blank" rel="noreferrer" id="service-link-3" aria-label="Prenota Sposa & Occasioni" class="hit service-cta-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 03: SALONE (ATMOSPHERE & STORY) ===== -->
+    <section id="salone" class="section-shell">
+      <div class="salon-top-grid">
+        <div class="salon-img-wrapper">
+          <div class="salon-photo-box">
+            <img src="assets/images/team.jpg" alt="Il team di Beatrice Hair Salon durante un'acconciatura sposa" />
+          </div>
+          <div class="salon-badge">
+            <p id="story-badge">Fatto con cura</p>
+          </div>
+        </div>
+
+        <div class="salon-text-wrapper">
+          <p id="story-kicker" class="eyebrow">03 — Atmosfera & team</p>
+          <h2 id="story-title" class="section-title">Competenza che ti accoglie</h2>
+          <p id="story-copy" class="salon-copy">
+            Da Beatrice Hair Salon ogni appuntamento comincia con l'ascolto. Le titolari uniscono preparazione, intuito e una sincera attenzione alla persona, in un'atmosfera rilassata e piacevole.
+          </p>
+          <p id="story-quote" class="salon-quote">
+            Non fai a tempo a spiegare come ti piacerebbe: loro lo hanno già capito.
+          </p>
+        </div>
+      </div>
+
+      <!-- Video Grid -->
+      <div class="salon-videos-grid">
+        <video id="story-video-1" controls playsinline preload="metadata" aria-label="Trattamento per capelli lisci e luminosi" class="salon-video-player">
+          <source src="assets/videos/story_1.mp4" type="video/mp4" />
+        </video>
+        <video id="story-video-2" controls playsinline preload="metadata" aria-label="Trasformazione blonde con Wella" class="salon-video-player">
+          <source src="assets/videos/story_2.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 04: REVIEWS (DICONO DI NOI) ===== -->
+    <section class="reviews-section">
+      <div class="reviews-container">
+        <p id="reviews-kicker" class="eyebrow">04 — Dicono di noi</p>
+        
+        <!-- 5 Gold Stars -->
+        <div class="stars-row">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+
+        <div class="reviews-grid">
+          <blockquote>
+            <p id="review-quote-0" class="review-quote">“Accoglienza sempre al top. Atmosfera piacevole, molto preparate, intuitive e molto simpatiche.”</p>
+            <footer id="review-name-0" class="review-footer">— Michela, Google</footer>
+          </blockquote>
+
+          <blockquote>
+            <p id="review-quote-1" class="review-quote">“Ottimo salone, personale molto preparato e gentile.”</p>
+            <footer id="review-name-1" class="review-footer">— Bruno Bonardi, Google</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 05: CONTATTI (CONTACTS) ===== -->
+    <section id="contatti" class="section-shell">
+      <div class="contact-grid">
+        <div>
+          <p id="contact-kicker" class="eyebrow">05 — Prenota la tua luce</p>
+          <h2 id="contact-title" class="section-title">Ti aspettiamo</h2>
+          <p id="contact-copy" class="contact-copy">
+            Chiamaci o scrivici su WhatsApp: ti aiuteremo a scegliere il servizio giusto e il momento migliore.
+          </p>
+
+          <div class="contact-buttons-row">
+            <a href="tel:+390308913249" class="gold-button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              030 891 3249
+            </a>
+
+            <a href="https://www.google.com/maps/place/Beatrice+Hair+Salon/@45.6791464,10.1810301,17z/data=!4m6!3m5!1s0x47817d5ab2e22bf3:0x31dae912c8702498!8m2!3d45.6791464!4d10.183605!16s%2Fg%2F11s2k9dg33" target="_blank" rel="noreferrer" id="contact-directions-btn" class="outline-button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              Indicazioni
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-schedule-col">
+          <div class="hours-block">
+            <div class="hours-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h3 id="contact-hours-title" class="hours-title">Orari</h3>
+              <div id="contact-schedule-list" class="schedule-list">
+                <div class="schedule-row"><span>Martedì</span><span class="schedule-time">08–12 · 13:30–18</span></div>
+                <div class="schedule-row"><span>Mercoledì</span><span class="schedule-time">08–12 · 13:30–18</span></div>
+                <div class="schedule-row"><span>Giovedì</span><span class="schedule-time">08–12 · 13:30–20</span></div>
+                <div class="schedule-row"><span>Venerdì</span><span class="schedule-time">08–18</span></div>
+                <div class="schedule-row"><span>Sabato</span><span class="schedule-time">07–16</span></div>
+                <div class="schedule-row"><span>Dom / Lun</span><span class="schedule-time">Chiuso</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="socials-row">
+            <a href="https://www.instagram.com/beatrice_hairsalon/" target="_blank" rel="noreferrer" class="social-link" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61556224951951" target="_blank" rel="noreferrer" class="social-link" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div>
+        <p class="footer-brand">Beatrice Hair Salon</p>
+        <p id="footer-tagline" class="footer-tagline">L’arte della luce, creata per te.</p>
+      </div>
+      <div class="footer-links">
+        <a href="tel:+390308913249">030 891 3249</a>
+        <a href="https://www.google.com/maps/place/Beatrice+Hair+Salon/@45.6791464,10.1810301,17z/data=!4m6!3m5!1s0x47817d5ab2e22bf3:0x31dae912c8702498!8m2!3d45.6791464!4d10.183605!16s%2Fg%2F11s2k9dg33" target="_blank" rel="noreferrer">Google Maps</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BOTTOM QUICK BAR ==================== -->
+  <div class="bottom-quick-bar">
+    <a href="tel:+390308913249" class="quick-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span id="quick-call-text">Chiama</span>
+    </a>
+
+    <a href="https://wa.me/390308913249?text=Buongiorno%2C%20vorrei%20prenotare%20un%20appuntamento." target="_blank" rel="noreferrer" class="quick-link bg-gold">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></svg>
+      <span id="quick-book-text">Prenota</span>
+    </a>
+
+    <a href="https://wa.me/390308913249?text=Buongiorno%2C%20vorrei%20prenotare%20un%20appuntamento." target="_blank" rel="noreferrer" class="quick-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
